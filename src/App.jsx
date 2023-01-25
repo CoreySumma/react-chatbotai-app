@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import OptionsSelection from './components/OptionSelection';
+import { arrayItems } from './AIOptions/index';
 
-function App() {
-  
+
+export default function App() {
+  console.log(arrayItems);
   return (
     <div className="App">
-     <h1>Les Do it</h1>
+     <OptionsSelection />
     </div>
   )
 }
-
-export default App
