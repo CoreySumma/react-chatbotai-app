@@ -1,14 +1,15 @@
-import { useState } from 'react'
 import './App.css'
 import OptionsSelection from './components/OptionSelection';
 import { arrayItems } from './AIOptions/index';
 
 export default function App() {
-  console.log(arrayItems);
+  const selectOption = (option) => {
+    console.log(option);
+  }
   return (
     <div className="App">
-     <OptionsSelection arrayItems={arrayItems}/>
+     <OptionsSelection arrayItems={arrayItems} selectOption={selectOption}/>
     </div>
-  )
+  );
 }
 
