@@ -27,7 +27,7 @@ export const arrayItems = [
   {
     name: "Explain code",
     id: "explainCode",
-    description: "Explain a complicated piece of code",
+    description: "Explain a complicated piece of code.",
   },
   {
     name: "Javascript to Python",
